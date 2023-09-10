@@ -1,0 +1,21 @@
+{
+	"id": "Mission_buy_toy6_lvl0",
+	"nameString": "STR_MISSION_BUY_TOY6_LVL0",
+	"type": "mission",
+	"imageId": "mission_toy_8",
+	"prerequisite": "Mission_play_puzzle_7",
+	"eventsToCatch": [
+		"EVENT_FACILITY_INVENTORY_ADD"
+	],
+	"eventParams": [
+		"Toy_8"
+	],
+	"totalProgress": 1,
+	"goAction": "show_store",
+	"payout": [
+		{
+			"nameString": "coin",
+			"amount": 1350
+		}
+	]
+}

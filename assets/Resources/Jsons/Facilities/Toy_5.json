@@ -1,0 +1,45 @@
+{
+	"id": "Toy_5",
+	"nameString": "STR_TOY_5",
+	"description": "STR_TOY_DESCRIPTION_5",
+	"type": "Box",
+	"blockRequired": 40,
+	"prices": [
+		{
+			"nameString": "coin",
+			"amount": 3400
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		}
+	],
+	"playTime": 15,
+	"payout": [
+		{
+			"nameString": "coin",
+			"amount": 260
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		}
+	],
+	"rechargeTime": 1
+}

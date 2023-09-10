@@ -1,0 +1,45 @@
+{
+	"id": "empty",
+	"nameString": "empty",
+	"description": "empty",
+	"type": "empty",
+	"blockRequired": 0,
+	"prices": [
+		{
+			"nameString": "coin",
+			"amount": 0
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		}
+	],
+	"playTime": 0,
+	"payout": [
+		{
+			"nameString": "coin",
+			"amount": 0
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		}
+	],
+	"rechargeTime": 1
+}

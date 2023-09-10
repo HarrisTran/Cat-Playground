@@ -1,0 +1,23 @@
+{
+	"count": 8,
+	"speakers": [
+		"???",
+		"???",
+		"???",
+		"???",
+		"???",
+		"Chestnut",
+		"Miruku",
+		"Chestnut"
+	],
+	"strings": [
+		"STR_CUTSCENE_OPENING_0",
+		"STR_CUTSCENE_OPENING_1",
+		"STR_CUTSCENE_OPENING_2",
+		"STR_CUTSCENE_OPENING_2_1",
+		"STR_CUTSCENE_OPENING_3_0",
+		"STR_CUTSCENE_OPENING_3_1",
+		"STR_CUTSCENE_OPENING_4",
+		"STR_CUTSCENE_OPENING_4_1"
+	]
+}

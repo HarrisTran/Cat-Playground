@@ -1,0 +1,10 @@
+{
+	"catPath": "../../assets/Resources/Jsons/Cats/",
+	"facilityPath": "../../assets/Resources/Jsons/Facilities/",
+	"puzzleLevelPath": "../../assets/Resources/Jsons/",
+	"puzzlePropertiesPath": "../../assets/Resources/Jsons",
+	"missionsPath": "../../assets/Resources/Jsons/Missions/",
+	"localizationPath": "../../assets/Resources/Jsons/Localizations",
+	"defaultCatDataPath": "D:/catdata.xlsx",
+	"defaultCatLocPath": "D:/catlocal.xlsx"
+}

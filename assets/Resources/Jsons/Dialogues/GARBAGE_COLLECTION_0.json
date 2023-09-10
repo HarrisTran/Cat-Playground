@@ -1,0 +1,9 @@
+{
+	"count": 3,
+	"speakers": ["Miruku", "Miruku", "Miruku"],
+	"strings": [
+		"STR_GARBAGE_COLLECTION_0",
+		"STR_GARBAGE_COLLECTION_1",
+		"STR_GARBAGE_COLLECTION_2"
+		]
+}

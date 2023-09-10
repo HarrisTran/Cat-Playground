@@ -1,0 +1,21 @@
+{
+	"id": "Achievement_2_spend_fish",
+	"nameString": "STR_ACHIEVEMENT_2_SPEND_FISH",
+	"type": "achievement",
+	"imageId": "mission_spend_fish",
+	"prerequisite": "",
+	"eventsToCatch": [
+		"EVENT_CURRENCY_LOSE"
+	],
+	"eventParams": [
+		"fish"
+	],
+	"totalProgress": 100,
+	"goAction": "show_store",
+	"payout": [
+		{
+			"nameString": "gem",
+			"amount": 15
+		}
+	]
+}

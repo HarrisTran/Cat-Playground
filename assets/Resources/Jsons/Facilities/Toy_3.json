@@ -1,0 +1,45 @@
+{
+	"id": "Toy_3",
+	"nameString": "STR_TOY_3",
+	"description": "STR_TOY_DESCRIPTION_3",
+	"type": "Bed",
+	"blockRequired": 15,
+	"prices": [
+		{
+			"nameString": "coin",
+			"amount": 2400
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		}
+	],
+	"playTime": 12,
+	"payout": [
+		{
+			"nameString": "coin",
+			"amount": 170
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		}
+	],
+	"rechargeTime": 1
+}

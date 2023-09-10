@@ -1,0 +1,21 @@
+{
+	"id": "Achievement_7_play_puzzle",
+	"nameString": "STR_ACHIEVEMENT_7_PLAY_PUZZLE",
+	"type": "achievement",
+	"imageId": "mission_puzzle",
+	"prerequisite": "",
+	"eventsToCatch": [
+		"EVENT_PUZZLE_COMPLETE_SESSION"
+	],
+	"eventParams": [
+		"one"
+	],
+	"totalProgress": 30,
+	"goAction": "play_puzzle",
+	"payout": [
+		{
+			"nameString": "gem",
+			"amount": 15
+		}
+	]
+}

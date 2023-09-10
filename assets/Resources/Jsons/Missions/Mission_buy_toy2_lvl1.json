@@ -1,0 +1,21 @@
+{
+	"id": "Mission_buy_toy2_lvl1",
+	"nameString": "STR_MISSION_BUY_TOY2_LVL1",
+	"type": "mission",
+	"imageId": "mission_toy_3",
+	"prerequisite": "Mission_watch_ads_0",
+	"eventsToCatch": [
+		"EVENT_FACILITY_INVENTORY_ADD"
+	],
+	"eventParams": [
+		"Toy_3"
+	],
+	"totalProgress": 1,
+	"goAction": "show_store",
+	"payout": [
+		{
+			"nameString": "coin",
+			"amount": 500
+		}
+	]
+}

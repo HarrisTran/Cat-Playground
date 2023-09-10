@@ -1,0 +1,21 @@
+{
+	"id": "Daily_serve_customer",
+	"nameString": "STR_DAILY_SERVE_CUSTOMER",
+	"type": "daily",
+	"imageId": "mission_customer",
+	"prerequisite": "",
+	"eventsToCatch": [
+		"EVENT_CAT_DONE_PLAYING"
+	],
+	"eventParams": [
+		"one"
+	],
+	"totalProgress": 30,
+	"goAction": "",
+	"payout": [
+		{
+			"nameString": "coin",
+			"amount": 2000
+		}
+	]
+}

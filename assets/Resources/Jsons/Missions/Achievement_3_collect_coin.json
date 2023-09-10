@@ -1,0 +1,21 @@
+{
+	"id": "Achievement_3_collect_coin",
+	"nameString": "STR_ACHIEVEMENT_3_COLLECT_COIN",
+	"type": "achievement",
+	"imageId": "mission_spend_coin",
+	"prerequisite": "",
+	"eventsToCatch": [
+		"EVENT_CURRENCY_ADD"
+	],
+	"eventParams": [
+		"coin"
+	],
+	"totalProgress": 5000,
+	"goAction": "",
+	"payout": [
+		{
+			"nameString": "gem",
+			"amount": 15
+		}
+	]
+}

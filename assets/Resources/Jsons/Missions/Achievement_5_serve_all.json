@@ -1,0 +1,21 @@
+{
+	"id": "Achievement_5_serve_all",
+	"nameString": "STR_ACHIEVEMENT_5_SERVE_ALL",
+	"type": "achievement",
+	"imageId": "mission_customer",
+	"prerequisite": "",
+	"eventsToCatch": [
+		"EVENT_CAT_SHOW_UP"
+	],
+	"eventParams": [
+		"total"
+	],
+	"totalProgress": 6,
+	"goAction": "",
+	"payout": [
+		{
+			"nameString": "gem",
+			"amount": 15
+		}
+	]
+}

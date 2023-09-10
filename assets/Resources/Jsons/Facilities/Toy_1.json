@@ -1,0 +1,45 @@
+{
+	"id": "Toy_1",
+	"nameString": "STR_TOY_1",
+	"description": "STR_TOY_DESCRIPTION_1",
+	"type": "Ball",
+	"blockRequired": 6,
+	"prices": [
+		{
+			"nameString": "coin",
+			"amount": 700
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		}
+	],
+	"playTime": 8,
+	"payout": [
+		{
+			"nameString": "coin",
+			"amount": 100
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		}
+	],
+	"rechargeTime": 1
+}

@@ -1,0 +1,21 @@
+{
+	"id": "Achievement_4_buy_toys",
+	"nameString": "STR_ACHIEVEMENT_4_BUY_TOYS",
+	"type": "achievement",
+	"imageId": "mission_toy",
+	"prerequisite": "",
+	"eventsToCatch": [
+		"EVENT_FACILITY_INVENTORY_ADD"
+	],
+	"eventParams": [
+		"all"
+	],
+	"totalProgress": 12,
+	"goAction": "show_store",
+	"payout": [
+		{
+			"nameString": "gem",
+			"amount": 30
+		}
+	]
+}

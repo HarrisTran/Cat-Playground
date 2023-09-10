@@ -1,0 +1,9 @@
+{
+	"count": 3,
+	"speakers": ["Miruku", "Miruku", "Miruku"],
+	"strings": [
+		"STR_PLAY_PUZZLE_2_0",
+		"STR_PLAY_PUZZLE_2_1",
+		"STR_PLAY_PUZZLE_2_2"
+	]
+}

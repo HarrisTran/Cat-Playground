@@ -1,0 +1,7 @@
+{
+	"id": "Cat_6",
+	"nameString": "STR_CAT_NAME_6",
+	"description": "STR_CAT_DESCRIPTION_6",
+	"moveSpeed": 100,
+	"moveDelayTime": 0.36
+}

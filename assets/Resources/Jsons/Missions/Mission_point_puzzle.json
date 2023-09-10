@@ -1,0 +1,21 @@
+{
+	"id": "Mission_point_puzzle",
+	"nameString": "STR_MISSION_POINT_PUZZLE",
+	"type": "mission",
+	"imageId": "mission_puzzle",
+	"prerequisite": "Mission_buy_toy2_lvl0",
+	"eventsToCatch": [
+		"EVENT_PUZZLE_COMPLETE_SESSION"
+	],
+	"eventParams": [
+		"score"
+	],
+	"totalProgress": 600,
+	"goAction": "play_puzzle",
+	"payout": [
+		{
+			"nameString": "fish",
+			"amount": 5
+		}
+	]
+}

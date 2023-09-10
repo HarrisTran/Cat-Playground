@@ -1,0 +1,45 @@
+{
+	"id": "Toy_8",
+	"nameString": "STR_TOY_8",
+	"description": "STR_TOY_DESCRIPTION_8",
+	"type": "Toy",
+	"blockRequired": 90,
+	"prices": [
+		{
+			"nameString": "coin",
+			"amount": 5600
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		}
+	],
+	"playTime": 20,
+	"payout": [
+		{
+			"nameString": "coin",
+			"amount": 450
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		}
+	],
+	"rechargeTime": 1
+}

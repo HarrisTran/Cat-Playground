@@ -1,0 +1,21 @@
+{
+	"id": "Daily_play_puzzle",
+	"nameString": "STR_DAILY_PLAY_PUZZLE",
+	"type": "daily",
+	"imageId": "mission_puzzle",
+	"prerequisite": "",
+	"eventsToCatch": [
+		"EVENT_PUZZLE_COMPLETE_SESSION"
+	],
+	"eventParams": [
+		"one"
+	],
+	"totalProgress": 1,
+	"goAction": "play_puzzle",
+	"payout": [
+		{
+			"nameString": "coin",
+			"amount": 200
+		}
+	]
+}

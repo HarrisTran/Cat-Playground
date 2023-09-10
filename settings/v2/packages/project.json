@@ -1,0 +1,62 @@
+{
+  "__version__": "1.0.4",
+  "general": {
+    "designResolution": {
+      "width": 1080,
+      "height": 1920,
+      "fitHeight": true,
+      "fitWidth": false
+    }
+  },
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "TETROMINO"
+      },
+      {
+        "index": 2,
+        "name": "GRID_CELL"
+      },
+      {
+        "index": 3,
+        "name": "PIECE_BLOCK"
+      },
+      {
+        "index": 4,
+        "name": "CAT"
+      },
+      {
+        "index": 5,
+        "name": "FACILITY"
+      }
+    ]
+  },
+  "layer": [
+    {
+      "name": "CAT",
+      "value": 4
+    },
+    {
+      "name": "MAP",
+      "value": 1
+    },
+    {
+      "name": "FACILITY",
+      "value": 2
+    },
+    {
+      "name": "PUZZLE",
+      "value": 32
+    },
+    {
+      "name": "GAME_UI_1",
+      "value": 262144
+    },
+    {
+      "name": "GAME_UI_2",
+      "value": 524288
+    }
+  ],
+  "custom_joint_texture_layouts": []
+}

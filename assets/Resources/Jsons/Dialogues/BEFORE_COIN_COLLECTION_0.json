@@ -1,0 +1,10 @@
+{
+	"count": 4,
+	"speakers": ["Miruku", "Miruku", "Miruku", "Miruku"],
+	"strings": [
+		"STR_BEFORE_COIN_COLLECTION_0",
+		"STR_BEFORE_COIN_COLLECTION_1",
+		"STR_BEFORE_COIN_COLLECTION_2",
+		"STR_BEFORE_COIN_COLLECTION_3"
+	]
+}

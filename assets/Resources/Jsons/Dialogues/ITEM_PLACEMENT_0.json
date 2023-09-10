@@ -1,0 +1,9 @@
+{
+	"count": 3,
+	"speakers": ["Miruku", "Miruku", "Miruku"],
+	"strings": [
+		"STR_ITEM_PLACEMENT_0",
+		"STR_ITEM_PLACEMENT_1",
+		"STR_ITEM_PLACEMENT_2"
+	]
+}

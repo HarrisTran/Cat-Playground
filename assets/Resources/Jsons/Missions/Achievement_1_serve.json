@@ -1,0 +1,21 @@
+{
+	"id": "Achievement_1_serve",
+	"nameString": "STR_ACHIEVEMENT_1_SERVE",
+	"type": "achievement",
+	"imageId": "mission_customer",
+	"prerequisite": "",
+	"eventsToCatch": [
+		"EVENT_CAT_DONE_PLAYING"
+	],
+	"eventParams": [
+		"one"
+	],
+	"totalProgress": 200,
+	"goAction": "",
+	"payout": [
+		{
+			"nameString": "gem",
+			"amount": 15
+		}
+	]
+}

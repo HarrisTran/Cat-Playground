@@ -1,0 +1,45 @@
+{
+	"id": "Toy_4",
+	"nameString": "STR_TOY_4",
+	"description": "STR_TOY_DESCRIPTION_4",
+	"type": "Box",
+	"blockRequired": 25,
+	"prices": [
+		{
+			"nameString": "coin",
+			"amount": 2800
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		}
+	],
+	"playTime": 13,
+	"payout": [
+		{
+			"nameString": "coin",
+			"amount": 210
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		},
+		{
+			"nameString": "coin",
+			"amount": 0
+		}
+	],
+	"rechargeTime": 1
+}

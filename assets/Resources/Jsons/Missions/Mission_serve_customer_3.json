@@ -1,0 +1,25 @@
+{
+	"id": "Mission_serve_customer_3",
+	"nameString": "STR_MISSION_SERVE_CUSTOMER_3",
+	"type": "mission",
+	"imageId": "mission_customer",
+	"prerequisite": "Mission_buy_toy4_lvl1",
+	"eventsToCatch": [
+		"EVENT_CAT_DONE_PLAYING"
+	],
+	"eventParams": [
+		"one"
+	],
+	"totalProgress": 30,
+	"goAction": "",
+	"payout": [
+		{
+			"nameString": "coin",
+			"amount": 400
+		},
+		{
+			"nameString": "fish",
+			"amount": 5
+		}
+	]
+}

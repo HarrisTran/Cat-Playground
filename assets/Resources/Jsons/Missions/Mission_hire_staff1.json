@@ -1,0 +1,21 @@
+{
+	"id": "Mission_hire_staff1",
+	"nameString": "STR_MISSION_HIRE_STAFF1",
+	"type": "mission",
+	"imageId": "mission_miruku",
+	"prerequisite": "Mission_buy_toy1_lvl1_1",
+	"eventsToCatch": [
+		"EVENT_PARK_DOG_UNLOCKED"
+	],
+	"eventParams": [
+		"one"
+	],
+	"totalProgress": 1,
+	"goAction": "add_dog",
+	"payout": [
+		{
+			"nameString": "coin",
+			"amount": 500
+		}
+	]
+}

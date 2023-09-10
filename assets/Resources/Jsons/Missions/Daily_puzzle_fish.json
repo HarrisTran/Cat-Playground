@@ -1,0 +1,21 @@
+{
+	"id": "Daily_puzzle_fish",
+	"nameString": "STR_DAILY_PUZZLE_FISH",
+	"type": "daily",
+	"imageId": "mission_puzzle_fish",
+	"prerequisite": "",
+	"eventsToCatch": [
+		"EVENT_PUZZLE_COMPLETE_SESSION"
+	],
+	"eventParams": [
+		"fish"
+	],
+	"totalProgress": 5,
+	"goAction": "play_puzzle",
+	"payout": [
+		{
+			"nameString": "coin",
+			"amount": 1000
+		}
+	]
+}

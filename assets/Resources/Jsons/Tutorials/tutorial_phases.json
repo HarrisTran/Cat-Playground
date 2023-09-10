@@ -1,0 +1,119 @@
+{
+	"phases": [
+		{
+			"name": "CUT_SCENE",
+			"actions": [ 
+				{ "delay": 0.5 },
+				{ "cutScene": "OPENING"} ]
+		},
+		{
+			"name": "GARBAGE_COLLECTION",
+			"actions": [
+				{ "customAction": "SHOW_DOG"},
+				{ "customAction": "DOG_MOVE_IN"},
+				{ "waitEvent": "EVENT_DOG_TUTORIAL_MOVE_DONE"},
+				{ "delay": 0.25 },
+				{ "dialogue": "GARBAGE_COLLECTION_0"},
+				{ "click": "GARBAGE_0"},
+				{ "click": "GARBAGE_1"},
+				{ "click": "GARBAGE_2"}
+			]
+		},
+		{
+			"name": "ITEM_PLACEMENT",
+			"actions": [
+				{ "dialogue": "ITEM_PLACEMENT_0"},
+				{ "click": "INVENTORY"},
+				{ "click": "SLOT_0"},
+				{ "delay": 0.75 },
+				{ "click": "TOY_0"},
+				{ "delay": 0.75 },
+				{ "click": "CONFIRM_0"},
+				{ "delay": 0.5 },
+				{ "click": "INVENTORY"}
+			]
+		},
+		{
+			"name": "MAIN_CAT_BOOTH_MOVE",
+			"actions": [
+				{ "dialogue": "MAIN_CAT_BOOTH_MOVE_0"},
+				{ "click": "CAT_BOOTH"},
+				{ "click": "CAT_BOOTH"},
+				{ "click": "CAT_BOOTH"},
+				{ "click": "CAT_BOOTH"},
+				{ "click": "CAT_BOOTH"}
+			]
+		},
+		{
+			"name": "WAIT_CAT_PLAYING",
+			"actions": [
+				{ "waitEvent": "EVENT_CAT_START_PLAYING"},
+				{ "delay": 0.25 },
+				{ "customAction": "PAUSE_FACILITY_UPDATE"},
+				{ "dialogue": "WAIT_CAT_PLAYING_0"},
+				{ "customAction": "UNPAUSE_FACILITY_UPDATE"}
+			]
+		},
+		{
+			"name": "BEFORE_COIN_COLLECTION",
+			"actions": [
+				{ "waitEvent": "EVENT_CAT_DONE_PLAYING"},
+				{ "dialogue": "BEFORE_COIN_COLLECTION_0"}
+			]
+		},
+		{
+			"name": "COIN_COLLECTION",
+			"actions": [
+				{ "click": "COIN_TUTORIAL"},
+				{ "dialogue": "COIN_COLLECTION_0"}
+			]
+		},
+		{
+			"name": "TOY_BUYING",
+			"actions": [
+				{ "dialogue": "TOY_BUYING_0"},
+				{ "click": "STORE"},
+				{ "delay": 0.5 },
+				{ "click": "TOY_1"},
+				{ "dialogue": "TOY_BUYING_1"},
+				{ "customAction": "CLOSE_STORE" }
+			]
+		},
+		{
+			"name": "LAUNCH_PUZZLE",
+			"actions": [
+				{ "click": "PUZZLE_BUTTON"},
+				{ "waitEvent": "EVENT_SWITCH_PUZZLE"},
+				{ "customAction": "SET_PUZZLE_TUTORIAL_0"}
+			]
+		},
+		{
+			"name": "PLAY_PUZZLE",
+			"actions": [
+				{ "customAction": "PUZZLE_LOCK_BACK_BUTTON"},
+				{ "dialogue": "PLAY_PUZZLE_0"},
+				{ "drag": { "target": "TETROMINO_TUTORIAL", "to": "TETROMINO_PLACE_TUTORIAL" }},
+				{ "delay": 1},
+				{ "customAction": "SET_PUZZLE_TUTORIAL_1"},
+				{ "drag": { "target": "TETROMINO_TUTORIAL", "to": "TETROMINO_PLACE_TUTORIAL" }},
+				{ "delay": 1},
+				{ "dialogue": "PLAY_PUZZLE_1"},
+				{ "customAction": "PUZZLE_TURN_OFF_TUTORIAL"},
+				{ "customAction": "FORCED_INPUT_OFF"},
+				{ "waitEvent": "EVENT_PUZZLE_COMPLETE_SESSION"},
+				{ "customAction": "FORCED_INPUT_ON"},
+				{ "dialogue": "PLAY_PUZZLE_2"},
+				{ "customAction": "PUZZLE_UNLOCK_BACK_BUTTON" },
+				{ "click": "PUZZLE_COMPLETE_OK"}
+			]
+		},
+		{
+			"name": "CONCLUDE",
+			"actions": [
+				{ "waitEvent": "EVENT_SWITCH_MAIN_GAME"},
+				{ "dialogue": "CONCLUDE_0"},
+				{ "customAction": "DOG_MOVE_OUT"}
+			]
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"name": "",
+	"currencies": [
+		{ "nameString": "coin", "amount": 625 },
+		{ "nameString": "gem", "amount": 10 },
+		{ "nameString": "fish", "amount": 0 }
+	],
+	"parkFacilities": [
+		{ "id": "empty" },
+		{ "id": "empty" },
+		{ "id": "empty" },
+		{ "id": "empty" }
+	],
+	"inventoryFacilities": [
+		{ "id": "Toy_0", "level": 1, "amount": 1  }
+	],
+	"puzzleInventory": {
+		"rotateCount": 5,
+		"hammerCount": 5,
+		"renewCount": 5
+	},
+	"hasDog": false,
+	"tutorialPlayed": false,
+	"questionReceivers": {
+		"0": [{"nameString": "fish", "amount": 3 }],
+		"1": [{"nameString": "fish", "amount": 3 }],
+		"2": [{"nameString": "coin", "amount": 25 }],
+		"3": [{"nameString": "coin", "amount": 50 }],
+		"4": [{"nameString": "coin", "amount": 100 }],
+		"5": [{"nameString": "gem", "amount": 100 }],
+		"6": [{"nameString": "gem", "amount": 100 }, {"nameString": "coin", "amount": 100}, {"nameString": "fish", "amout": 100}]
+	}
+}

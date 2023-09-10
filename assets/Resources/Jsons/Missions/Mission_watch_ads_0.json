@@ -1,0 +1,21 @@
+{
+	"id": "Mission_watch_ads_0",
+	"nameString": "STR_MISSION_WATCH_ADS",
+	"type": "mission",
+	"imageId": "mission_ad",
+	"prerequisite": "Mission_buy_toy2_lvl0_1",
+	"eventsToCatch": [
+		"EVENT_WATCH_AD"
+	],
+	"eventParams": [
+		"dog"
+	],
+	"totalProgress": 1,
+	"goAction": "dog_boost",
+	"payout": [
+		{
+			"nameString": "coin",
+			"amount": 150
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "puzzle_grid",
+  "uuid": "c55db7ed-41e4-4636-a553-01881557eb3a",
+  "creator": {
+    "version": "3.7.2"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.4",
+    "@types/node": "^20.2.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}

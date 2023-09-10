@@ -1,0 +1,106 @@
+[
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "DogWalking",
+    "_objFlags": 0,
+    "__editorExtras__": {
+      "embeddedPlayerGroups": []
+    },
+    "_native": "",
+    "sample": 60,
+    "speed": 1,
+    "wrapMode": 2,
+    "enableTrsBlending": false,
+    "_duration": 1.2166666666666666,
+    "_hash": 500763545,
+    "_tracks": [
+      {
+        "__id__": 1
+      }
+    ],
+    "_exoticAnimation": null,
+    "_events": [],
+    "_embeddedPlayers": []
+  },
+  {
+    "__type__": "cc.animation.ObjectTrack",
+    "_binding": {
+      "__type__": "cc.animation.TrackBinding",
+      "path": {
+        "__id__": 2
+      },
+      "proxy": null
+    },
+    "_channel": {
+      "__id__": 5
+    }
+  },
+  {
+    "__type__": "cc.animation.TrackPath",
+    "_paths": [
+      {
+        "__id__": 3
+      },
+      {
+        "__id__": 4
+      },
+      "spriteFrame"
+    ]
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "DogSprite"
+  },
+  {
+    "__type__": "cc.animation.ComponentPath",
+    "component": "cc.Sprite"
+  },
+  {
+    "__type__": "cc.animation.Channel",
+    "_curve": {
+      "__id__": 6
+    }
+  },
+  {
+    "__type__": "cc.ObjectCurve",
+    "_times": [
+      0.016666666666666666,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1,
+      1.2
+    ],
+    "_values": [
+      {
+        "__uuid__": "75e79ab3-fcf3-4169-ab96-40a6e8f9d907@4e2c4",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "75e79ab3-fcf3-4169-ab96-40a6e8f9d907@d4194",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "75e79ab3-fcf3-4169-ab96-40a6e8f9d907@d8b3a",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "75e79ab3-fcf3-4169-ab96-40a6e8f9d907@c83cf",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "75e79ab3-fcf3-4169-ab96-40a6e8f9d907@5c7f6",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "75e79ab3-fcf3-4169-ab96-40a6e8f9d907@9a78c",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "75e79ab3-fcf3-4169-ab96-40a6e8f9d907@4e2c4",
+        "__expectedType__": "cc.SpriteFrame"
+      }
+    ]
+  }
+]
